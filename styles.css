@@ -112,7 +112,7 @@ font-size: 14pt;
 }
 .drum{
   width:40%;
-  height: 300px;
+  height: 270px;
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 30px;
@@ -122,5 +122,30 @@ footer{
   top:97%;
   left :45%;
 }
+.twin-button{
+  display: flex;
+ 
+margin-bottom: 5%;
+
+gap:60px;
+justify-content: center;
+
+}
+.replay{
+  margin-top: 60px;
+ border: none;
+ border-radius: 10px;
+ width:200px;
+ height: 80px;
+ color:#DA0463;
+ font-weight:700;
+ font-family: "Arvo", cursive;
+font-size: 14pt;
+}
+.replay:hover{
+  color:white;
+  background-color: #9a2bc2;
+}
+
 }
   

@@ -7,6 +7,10 @@ for (var i = 0; i < document.querySelectorAll(".drum").length; i++) {
     drumSound(tom);
   });
 }
+document.addEventListener("dblclick", function (event) {
+  event.preventDefault();
+},{passive:false});
+
 document.addEventListener("keypress", function (event) {
   var tom1 = event.key;
   drumSound(tom1);
