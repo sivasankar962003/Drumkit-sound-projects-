@@ -38,37 +38,37 @@ document.querySelector(".reset").addEventListener("click", function () {
 function drumSound(tom) {
   var audio;
   if (tom === "w") {
-    audio = new Audio("sounds/tom-1.mp3");
+    audio = new Audio("tom-1.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else if (tom === "a") {
-    audio = new Audio("sounds/tom-2.mp3");
+    audio = new Audio("tom-2.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else if (tom === "s") {
-    audio = new Audio("sounds/tom-3.mp3");
+    audio = new Audio("tom-3.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else if (tom === "d") {
-    audio = new Audio("sounds/tom-4.mp3");
+    audio = new Audio("tom-4.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else if (tom === "j") {
-    audio = new Audio("sounds/snare.mp3");
+    audio = new Audio("snare.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else if (tom === "k") {
-    audio = new Audio("sounds/crash.mp3");
+    audio = new Audio("crash.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
   } else {
-    audio = new Audio("sounds//kick-bass.mp3");
+    audio = new Audio("kick-bass.mp3");
     audio.play();
     ++front;
     arr[front] = audio;
